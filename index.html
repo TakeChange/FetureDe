@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html
+{
+	font-size:62.5%
+}
+@media(max-width:760px)
+{
+	html
+	{
+		font-size:45%
+	}
+}
+@media(max-width:960px)
+{
+	html
+	{
+		font-size:55%
+	}
+}
+@media(max-width:560px)
+{
+	html
+	{
+		font-size:35%
+	}
+}
+@media(max-width:460px)
+{
+	html
+	{
+		font-size:30%
+	}
+}
+@media(max-width:260px)
+{
+	html
+	{
+		font-size:20%
+	}
+}
+
+
+.A
+{
+	background-color:rgb(40,166,129);
+	text-align:center;
+	font-size:7rem;   
+	color:white;
+	height:8rem;
+}
+</style>
+<body>
+<div class="A"><b>  *continue  * </b> </div><br>
+<ul>
+<li style="font-size:3rem;margin-left:2rem"><b><u> C continue statement </u></b></li><br>
+<p style="font-size:2rem">The continue statement in C language is used to bring the program control to the beginning of the loop. 
+The continue statement skips some lines of code inside the loop and continues with the next iteration. It is mainly
+used for a condition so that we can skip some code for a particular condition.</p>
+
+
+<li style="font-size:3rem;margin-left:2rem"><b><u> Syntax</u></b></li><br>
+
+<div style="border:.15rem solid rgb(40,166,129);margin-right:30rem;margin-left:20rem;background-color:rgb(227,227,227)">
+<p style="margin-left:4rem;font-size:2rem">
+//loop statements<br> 
+<b>continue;</b><br>   
+//some lines of the code which is to be skipped <br> 
+</p>
+</div>
+
+
+<li style="font-size:3rem;margin-left:2rem"><b><u> Example </u></b></li><br>
+<div style="border:0.15rem solid rgb(40,166,129);margin-right:30rem;margin-left:10rem;background-color:rgb(227,227,227)">
+<p style="margin-left:4rem;font-size:2rem">
+#include&lt stdio.h><br>  
+int main()<br>
+{ <br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp int i=1;//initializing a local variable <br>      
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp //starting a loop from 1 to 10 <br>   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp for(i=1;i&lt=10;i++)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp { <br>     
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp if(i==5)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp {//if value of i is equal to 5, it will continue the loop  <br>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp continue;<br>    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp } <br>   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp printf("%d \n",i);<br>    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp }//end of for loop <br>   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp return 0; <br> 
+}    
+</p>
+</div>
+<li style="font-size:3rem;margin-left:2rem"><b><u> Output </u></b></li><br>
+<div style="background-color:black;font-size:3rem;margin-right:40rem;margin-left:25rem;padding-left:5rem">
+<p style="color:white">
+1<br>
+2<br>
+3<br>			
+4<br>
+5<br>
+6<br>
+7<br>
+8<br>
+9<br>
+10<br>
+</p>
+</div><br>
+<div style="border:.2rem solid rgb(40,166,129);margin-left:30rem;margin-right:45rem;padding-left:2rem;background-color:rgb(40,166,129)">
+<a href="https://www.onlinegdb.com/online_html_compiler" style="font-size:3rem;color:white;">
+*Try it Yourself*</a>
+
+
+
+ 
+</ul>
+</body>
+</head>
+</html>
